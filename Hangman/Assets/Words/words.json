@@ -1,0 +1,6 @@
+﻿{
+  "Cars": [ "Dacia", "Mercedes", "Audi", "Ferrari" ],
+  "Movies": [ "Gladiator", "Inception", "Titanic", "Avatar" ],
+  "Flowers": [ "Rose", "Tulip", "Lily", "Daisy" ],
+  "Sports": [ "Football", "Tennis", "Basketball", "Rugby" ]
+}

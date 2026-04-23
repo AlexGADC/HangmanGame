@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\ArcherAvatar.jpg" />
+    <None Remove="Assets\AssassinAvatar.jpg" />
+    <None Remove="Assets\Avatars\ArcherAvatar.jpg" />
+    <None Remove="Assets\Avatars\AssassinAvatar.jpg" />
+    <None Remove="Assets\Avatars\ChineseSwordsmanAvatar.jpg" />
+    <None Remove="Assets\Avatars\MaskedManAvatar.jpg" />
+    <None Remove="Assets\Avatars\SamuraiAvatar.jpg" />
+    <None Remove="Assets\Avatars\SamuraiWonderingAvatar.jpg" />
+    <None Remove="Assets\Avatars\StaffMasterAvatar.jpg" />
+    <None Remove="Assets\Avatars\SwordMaster2Avatar.jpg" />
+    <None Remove="Assets\Avatars\SwordMasterAvatar.jpg" />
+    <None Remove="Assets\Avatars\TaiChiMasterAvatar.jpg" />
+    <None Remove="Assets\HangmanPoses\HangmanMistakes0.jpg" />
+    <None Remove="Assets\HangmanPoses\HangmanMistakes1.jpg" />
+    <None Remove="Assets\HangmanPoses\HangmanMistakes2.jpg" />
+    <None Remove="Assets\HangmanPoses\HangmanMistakes3.jpg" />
+    <None Remove="Assets\HangmanPoses\HangmanMistakes4.jpg" />
+    <None Remove="Assets\HangmanPoses\HangmanMistakes5.jpg" />
+    <None Remove="Assets\HangmanPoses\HangmanMistakes6.jpg" />
+    <None Remove="Assets\HangmanPoses\HangmanMistakes7.jpg" />
+    <None Remove="Assets\LoadingScreen\StartingGame.gif" />
+    <None Remove="Assets\MaskedManAvatar.jpg" />
+    <None Remove="Assets\SamuraiAvatar.jpg" />
+    <None Remove="Assets\SamuraiWonderingAvatar.jpg" />
+    <None Remove="Assets\StaffMasterAvatar.jpg" />
+    <None Remove="Assets\StartingGame.gif" />
+    <None Remove="Assets\SupermanAvatar.jpg" />
+    <None Remove="Assets\SwordMaster2Avatar.jpg" />
+    <None Remove="Assets\SwordMasterAvatar.jpg" />
+    <None Remove="Assets\TaiChiMasterAvatar.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.142" />
+    <PackageReference Include="System.Json" Version="4.8.0" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Avatars\ArcherAvatar.jpg" />
+    <Resource Include="Assets\Avatars\AssassinAvatar.jpg" />
+    <Resource Include="Assets\Avatars\ChineseSwordsmanAvatar.jpg" />
+    <Resource Include="Assets\Avatars\MaskedManAvatar.jpg" />
+    <Resource Include="Assets\Avatars\SamuraiAvatar.jpg" />
+    <Resource Include="Assets\Avatars\SamuraiWonderingAvatar.jpg" />
+    <Resource Include="Assets\Avatars\StaffMasterAvatar.jpg" />
+    <Resource Include="Assets\Avatars\SwordMaster2Avatar.jpg" />
+    <Resource Include="Assets\Avatars\SwordMasterAvatar.jpg" />
+    <Resource Include="Assets\Avatars\TaiChiMasterAvatar.jpg" />
+    <Resource Include="Assets\HangmanPoses\HangmanMistakes0.jpg" />
+    <Resource Include="Assets\HangmanPoses\HangmanMistakes1.jpg" />
+    <Resource Include="Assets\HangmanPoses\HangmanMistakes2.jpg" />
+    <Resource Include="Assets\HangmanPoses\HangmanMistakes3.jpg" />
+    <Resource Include="Assets\HangmanPoses\HangmanMistakes4.jpg" />
+    <Resource Include="Assets\HangmanPoses\HangmanMistakes5.jpg" />
+    <Resource Include="Assets\HangmanPoses\HangmanMistakes6.jpg" />
+    <Resource Include="Assets\HangmanPoses\HangmanMistakes7.jpg" />
+    <Resource Include="Assets\LoadingScreen\StartingGame.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Assets\Words\words.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Profiles\users.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
